@@ -19,8 +19,22 @@ namespace Calculadora
             Console.ReadLine();
 
             int operação = int.Parse(Console.ReadLine()); // Converter o número digitado para inteiro
+            
             Console.WriteLine("Digite o primeiro número: ");
             int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o segundo número: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            int resultado;
+
+            switch (operacao)
+            {
+                case 1:
+                    {
+                        resultado = num1 + num2;
+                        break;
+                    }
         }
     }
 }

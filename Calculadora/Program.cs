@@ -17,6 +17,8 @@ namespace Calculadora
             Console.WriteLine("4 - Divisão \n");
 
             Console.ReadLine();
+
+            int operação = int.Parse(Console.ReadLine()); // Converter o número digitado para inteiro
         }
     }
 }

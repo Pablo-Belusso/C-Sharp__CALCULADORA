@@ -19,6 +19,8 @@ namespace Calculadora
             Console.ReadLine();
 
             int operação = int.Parse(Console.ReadLine()); // Converter o número digitado para inteiro
+            Console.WriteLine("Digite o primeiro número: ");
+            int num1 = int.Parse(Console.ReadLine());
         }
     }
 }

@@ -38,10 +38,10 @@ namespace Calculadora
             }
         }
 
-        public static int Adicao (int num1, int num2) {
+        public static int Adicao (int numero1, int numero2) {
 
-            int resultado = num1 + num2;
-            return resultado;
+            int result = numero1 + numero2;
+            return result;
         }
 
     }

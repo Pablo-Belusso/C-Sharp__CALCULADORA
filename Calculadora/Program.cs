@@ -32,7 +32,7 @@ namespace Calculadora
             {
                 case 1:
                     {
-                        resultado = num1 + num2;
+                        resultado = Adicao(num1, num2);
                         break;
                     }
             }

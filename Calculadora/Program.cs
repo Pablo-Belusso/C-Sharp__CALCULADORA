@@ -55,7 +55,9 @@ namespace Calculadora
                         Console.WriteLine("Número inválido, digite outro número.");
                     break;
             }
-            Console.WriteLine("O resultado da operação entre {0} e {1} é: {2}", resultado);
+            Console.WriteLine("O resultado da operação entre {0} e {1} é: {2}", num1, num2, resultado);
+
+            Console.ReadLine ();
         }
 
         public static int Adicao (int numero1, int numero2) {

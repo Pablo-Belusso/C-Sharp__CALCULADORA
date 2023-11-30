@@ -26,7 +26,7 @@ namespace Calculadora
             Console.WriteLine("Digite o segundo número: ");
             int num2 = int.Parse(Console.ReadLine());
 
-            int resultado;
+            int resultado = 0;
 
             switch (operacao)
             {
@@ -50,7 +50,12 @@ namespace Calculadora
                         resultado = Divisao(num1, num2);
                         break;
                     }
+
+                default:
+                        Console.WriteLine("Número inválido, digite outro número.");
+                    break;
             }
+            Console.WriteLine("O resultado da operação entre {0} e {1} é: {2}", resultado);
         }
 
         public static int Adicao (int numero1, int numero2) {

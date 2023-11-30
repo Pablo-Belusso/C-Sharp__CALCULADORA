@@ -59,6 +59,7 @@ namespace Calculadora
             return result;
         }
 
+        // -- MÉTODOS AUXILIARES:
         public static int Subtracao(int numero1, int numero2)
         {
 

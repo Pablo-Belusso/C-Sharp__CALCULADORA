@@ -18,7 +18,7 @@ namespace Calculadora
 
             Console.ReadLine();
 
-            int operação = int.Parse(Console.ReadLine()); // Converter o número digitado para inteiro
+            int operacao = int.Parse(Console.ReadLine()); // Converter o número digitado para inteiro
             
             Console.WriteLine("Digite o primeiro número: ");
             int num1 = int.Parse(Console.ReadLine());
@@ -35,12 +35,24 @@ namespace Calculadora
                         resultado = Adicao(num1, num2);
                         break;
                     }
+                case 2:
+                    {
+                        resultado = Subtracao(num1, num2);
+                        break;
+                    }
             }
         }
 
         public static int Adicao (int numero1, int numero2) {
 
             int result = numero1 + numero2;
+            return result;
+        }
+
+        public static int Subtracao(int numero1, int numero2)
+        {
+
+            int result = numero1 - numero2;
             return result;
         }
 

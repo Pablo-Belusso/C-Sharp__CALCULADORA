@@ -16,8 +16,6 @@ namespace Calculadora
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão \n");
 
-            Console.ReadLine();
-
             int operacao = int.Parse(Console.ReadLine()); // Converter o número digitado para inteiro
             
             Console.WriteLine("Digite o primeiro número: ");
